@@ -58,4 +58,14 @@
         }
     });
 
+    $wrapper.on('keyup', '.crossword-input', function(){
+        var $next = $(this).next();
+
+        if ($next.length === 0) {
+            $next = $(this).closest('.crossword-line').next().find('.crossword-input').first();
+        }
+
+        $next.focus();
+    });
+
 })(jQuery);
