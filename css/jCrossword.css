@@ -1,0 +1,51 @@
+/*
+ * jCrossword @ 2017
+*/
+.crossword-questions {
+  padding: 10px 20px;
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #789;
+  font-size: 120%;
+  text-shadow: none;
+}
+.crossword-line {
+  white-space: nowrap;
+}
+.crossword-box {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  padding: 5px 10px;
+  margin-right: 1px;
+}
+.crossword-crossword input {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  background-color: #fff;
+  width: 40px;
+  line-height: 40px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  z-index: 1;
+  border-radius: 0;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+.crossword-crossword input:hover {
+  background-color: #ddf;
+  border: 1px solid #000;
+  z-index: 2;
+}
+.crossword-crossword input:focus {
+  background-color: #ddf;
+  border: 1px solid #000;
+  z-index: 2;
+}
+.crossword-input-bold {
+  background-color: #bfa !important;
+  margin-right: 0 !important;
+  outline: 1px solid #000;
+}
